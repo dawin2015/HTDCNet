@@ -1,0 +1,163 @@
+============================================================
+EEGNet Baseline on BNCI2014_004 (BCI Competition IV-2b)
+============================================================
+
+Loading BNCI2014_004 data...
+  Subject  1: 552 trials, shape (6, 500)
+  Subject  2: 574 trials, shape (6, 500)
+  Subject  3: 526 trials, shape (6, 500)
+  Subject  4: 706 trials, shape (6, 500)
+  Subject  5: 655 trials, shape (6, 500)
+  Subject  6: 546 trials, shape (6, 500)
+  Subject  7: 588 trials, shape (6, 500)
+  Subject  8: 558 trials, shape (6, 500)
+  Subject  9: 562 trials, shape (6, 500)
+
+Device: cuda
+
+============================================================
+Fold 1/9: Test Subject 1
+============================================================
+Train: 4243, Val: 472, Test: 552
+  Epoch 50/200, Train Acc: 0.7648, Val Acc: 0.7648
+  Epoch 100/200, Train Acc: 0.7794, Val Acc: 0.7797
+  Epoch 150/200, Train Acc: 0.7811, Val Acc: 0.7775
+  Epoch 200/200, Train Acc: 0.7820, Val Acc: 0.7775
+
+Results for Subject 1:
+  Best Val Accuracy: 0.7903
+  Test Accuracy: 0.7681
+
+============================================================
+Fold 2/9: Test Subject 2
+============================================================
+Train: 4223, Val: 470, Test: 574
+  Epoch 50/200, Train Acc: 0.7824, Val Acc: 0.7936
+  Epoch 100/200, Train Acc: 0.7852, Val Acc: 0.7936
+  Epoch 150/200, Train Acc: 0.7987, Val Acc: 0.7936
+  Epoch 200/200, Train Acc: 0.7819, Val Acc: 0.7936
+
+Results for Subject 2:
+  Best Val Accuracy: 0.8043
+  Test Accuracy: 0.6516
+
+============================================================
+Fold 3/9: Test Subject 3
+============================================================
+Train: 4266, Val: 475, Test: 526
+  Epoch 50/200, Train Acc: 0.7670, Val Acc: 0.7916
+  Epoch 100/200, Train Acc: 0.7754, Val Acc: 0.7937
+  Epoch 150/200, Train Acc: 0.7743, Val Acc: 0.8021
+  Epoch 200/200, Train Acc: 0.7743, Val Acc: 0.7979
+
+Results for Subject 3:
+  Best Val Accuracy: 0.8021
+  Test Accuracy: 0.6901
+
+============================================================
+Fold 4/9: Test Subject 4
+============================================================
+Train: 4104, Val: 457, Test: 706
+  Epoch 50/200, Train Acc: 0.7532, Val Acc: 0.7637
+  Epoch 100/200, Train Acc: 0.7848, Val Acc: 0.7724
+  Epoch 150/200, Train Acc: 0.7741, Val Acc: 0.7724
+  Epoch 200/200, Train Acc: 0.7770, Val Acc: 0.7702
+
+Results for Subject 4:
+  Best Val Accuracy: 0.7856
+  Test Accuracy: 0.6983
+
+============================================================
+Fold 5/9: Test Subject 5
+============================================================
+Train: 4150, Val: 462, Test: 655
+  Epoch 50/200, Train Acc: 0.7549, Val Acc: 0.7576
+  Epoch 100/200, Train Acc: 0.7704, Val Acc: 0.7662
+  Epoch 150/200, Train Acc: 0.7725, Val Acc: 0.7619
+  Epoch 200/200, Train Acc: 0.7708, Val Acc: 0.7597
+
+Results for Subject 5:
+  Best Val Accuracy: 0.7706
+  Test Accuracy: 0.8504
+
+============================================================
+Fold 6/9: Test Subject 6
+============================================================
+Train: 4248, Val: 473, Test: 546
+  Epoch 50/200, Train Acc: 0.7714, Val Acc: 0.8055
+  Epoch 100/200, Train Acc: 0.7961, Val Acc: 0.8055
+  Epoch 150/200, Train Acc: 0.7848, Val Acc: 0.8055
+  Epoch 200/200, Train Acc: 0.7808, Val Acc: 0.8034
+
+Results for Subject 6:
+  Best Val Accuracy: 0.8288
+  Test Accuracy: 0.6557
+
+============================================================
+Fold 7/9: Test Subject 7
+============================================================
+Train: 4211, Val: 468, Test: 588
+  Epoch 50/200, Train Acc: 0.7459, Val Acc: 0.7821
+  Epoch 100/200, Train Acc: 0.7530, Val Acc: 0.7778
+  Epoch 150/200, Train Acc: 0.7504, Val Acc: 0.7756
+  Epoch 200/200, Train Acc: 0.7540, Val Acc: 0.7778
+
+Results for Subject 7:
+  Best Val Accuracy: 0.7906
+  Test Accuracy: 0.8895
+
+============================================================
+Fold 8/9: Test Subject 8
+============================================================
+Train: 4238, Val: 471, Test: 558
+  Epoch 50/200, Train Acc: 0.7572, Val Acc: 0.7665
+  Epoch 100/200, Train Acc: 0.7655, Val Acc: 0.7813
+  Epoch 150/200, Train Acc: 0.7681, Val Acc: 0.7813
+  Epoch 200/200, Train Acc: 0.7633, Val Acc: 0.7856
+
+Results for Subject 8:
+  Best Val Accuracy: 0.7877
+  Test Accuracy: 0.8118
+
+============================================================
+Fold 9/9: Test Subject 9
+============================================================
+Train: 4234, Val: 471, Test: 562
+  Epoch 50/200, Train Acc: 0.7778, Val Acc: 0.7962
+  Epoch 100/200, Train Acc: 0.7846, Val Acc: 0.7898
+  Epoch 150/200, Train Acc: 0.7785, Val Acc: 0.7919
+  Epoch 200/200, Train Acc: 0.7841, Val Acc: 0.7856
+
+Results for Subject 9:
+  Best Val Accuracy: 0.8047
+  Test Accuracy: 0.6975
+
+============================================================
+EEGNet Baseline Results Summary
+============================================================
+
+Per-subject test accuracies:
+  Subject  1: 0.7681
+  Subject  2: 0.6516
+  Subject  3: 0.6901
+  Subject  4: 0.6983
+  Subject  5: 0.8504
+  Subject  6: 0.6557
+  Subject  7: 0.8895
+  Subject  8: 0.8118
+  Subject  9: 0.6975
+
+Mean Test Accuracy: 0.7459 ± 0.0824
+  (74.59% ± 8.24%)
+
+Results saved to: /home/ubuntu/user_liu_20260403/python_projects/bibm2026/results/eegnet_bnci2014_004_results.json
+
+============================================================
+Comparison with GAH-TNet Table 3 (BCI IV-2b LOSO)
+============================================================
+GAH-TNet reported EEGNet: 76.33%
+Our EEGNet implementation:  74.59% ± 8.24%
+Difference: -1.74 percentage points
+
+✓ Our EEGNet result is close to GAH-TNet's reported value
+  This validates the GAH-TNet Table 3 baselines

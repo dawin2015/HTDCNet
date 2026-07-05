@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Datasets (large files should not be committed)
+datasets/
+data/
+*.mat
+*.npy
+*.npz
+*.h5
+*.pkl
+
+# Model checkpoints (large files)
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+
+# Experiment outputs (large files)
+results/logs/*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Qoder cache
+.qoder/

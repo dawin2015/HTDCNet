@@ -1,0 +1,59 @@
+{
+  "model": "EEGNet",
+  "dataset": "BNCI2014_004",
+  "evaluation": "LOSO",
+  "num_subjects": 9,
+  "subject_results": [
+    {
+      "subject": 1,
+      "val_accuracy": 0.7902542372881356,
+      "test_accuracy": 0.7681159420289855
+    },
+    {
+      "subject": 2,
+      "val_accuracy": 0.8042553191489362,
+      "test_accuracy": 0.6515679442508711
+    },
+    {
+      "subject": 3,
+      "val_accuracy": 0.8021052631578948,
+      "test_accuracy": 0.6901140684410646
+    },
+    {
+      "subject": 4,
+      "val_accuracy": 0.7855579868708972,
+      "test_accuracy": 0.6983002832861189
+    },
+    {
+      "subject": 5,
+      "val_accuracy": 0.7705627705627706,
+      "test_accuracy": 0.850381679389313
+    },
+    {
+      "subject": 6,
+      "val_accuracy": 0.828752642706131,
+      "test_accuracy": 0.6556776556776557
+    },
+    {
+      "subject": 7,
+      "val_accuracy": 0.7905982905982906,
+      "test_accuracy": 0.8894557823129252
+    },
+    {
+      "subject": 8,
+      "val_accuracy": 0.7876857749469215,
+      "test_accuracy": 0.8118279569892473
+    },
+    {
+      "subject": 9,
+      "val_accuracy": 0.8046709129511678,
+      "test_accuracy": 0.697508896797153
+    }
+  ],
+  "mean_accuracy": 0.7458833565748149,
+  "std_accuracy": 0.08241010946659869,
+  "comparison_with_gah_tnet": {
+    "GAH-TNet reported": "76.33%",
+    "Our EEGNet": "74.59% \u00b1 8.24%"
+  }
+}
